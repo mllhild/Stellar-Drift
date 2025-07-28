@@ -1,0 +1,40 @@
+{
+  "name": "Alpha Centauri",
+  "center": [600, 400],
+  "planets": [
+    {
+      "name": "Alpha Centauri A",
+      "image_index": 1,
+      "radius": 120,
+      "orbit_radius": 0,
+      "orbit_angle": 0,
+      "orbit_angular_speed": 0.0,
+      "rotation_speed": 0.2
+    },
+    {
+      "name": "Alpha b",
+      "image_index": 4,
+      "radius": 25,
+      "orbit_radius": 200,
+      "orbit_angle": 0,
+      "orbit_angular_speed": 0.002,
+      "rotation_speed": 0.2
+    },
+    {
+      "name": "Alpha c",
+      "image_index": 2,
+      "radius": 50,
+      "orbit_radius": 400,
+      "orbit_angle": 1,
+      "orbit_angular_speed": 0.003,
+      "rotation_speed": 0.1
+    }
+  ],
+  "wormholes": [
+    {
+      "x": 900,
+      "y": 500,
+      "destination": "Sol"
+    }
+  ]
+}
